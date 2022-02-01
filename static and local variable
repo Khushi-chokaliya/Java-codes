@@ -1,0 +1,23 @@
+public  class A
+{
+    static int c=2; // static variable 
+    static int a=10; // static variable 
+         void fun()
+         {
+         //int a=10;
+         int b=30; // local variable 
+         System.out.println(a + " "+  b + " " + c);
+         ++a;
+         ++b;
+         ++c;
+         }
+        
+         public static void main(String args[])
+         {
+            A REF= new A();
+            REF.fun();
+            REF.fun();
+         }
+         
+     }
+     
